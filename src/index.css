@@ -1,13 +1,86 @@
 body {
+  
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box; 
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Home Page Portion */
+.col1_style{
+
+  margin-top: 70%;
+  font-size: 200%;
+}
+
+#header{
+  width: 100%;
+  height: 80vh;
+  margin-top: 90px;
+}
+
+.get-started{
+
+  color: rgba(62, 62, 180, 0.781);
+  border: 2px solid rgba(62, 62, 180, 0.781);
+  border-radius: 60%;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 400; 
+}
+
+.get-started:hover{
+
+  background-color: #40899A;
+  color: white;
+}
+
+.animated {
+ 
+  transition: 1s ease;
+  }
+  
+  .animated:hover {
+ 
+    border-radius:50%;
+    transition: 1s ease;
+  }
+
+.mt-6{
+
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.strong_style{
+
+  color: #4BA0B3;
+}
+
+.my-3{
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Navbar Page Portion */
+
+.brand_style{
+
+  color: #2342ca;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.nav-link {
+
+  color: #2342ca;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.nav-link:hover{
+
+  color: #2342ca;
+  margin-bottom: 2px solid #2342ca;
 }
