@@ -9,11 +9,11 @@ const Footer = ()=> {
      <div className='container-fluid'>
          <div className='row mb-5'>
              <div className='col-10 mx-auto'>
-             <footer className="bg-light w-1 mt-4 text-center text-white">
+             <footer className="w-1 mt-4 text-center text-white">
                 {/* Grid container --> */}
                 <div className="container p-4 pb-0">
                     {/* Section: Social media --> */}
-                    <section className="mb-4">
+                    <section className="mb-4 footer_style">
                     {/* Facebook --> */}
                     <a
                         className="btn btn-primary btn-floating m-1"
@@ -27,7 +27,8 @@ const Footer = ()=> {
                     <a
                         className="btn btn-primary btn-floating m-1"
                         style={{backgroundColor: "#55acee"}}
-                        href="#!"
+                        href="https://twitter.com/home"
+                        target='_blank'
                         role="button"
                         ><FaTwitter /></a>
 
@@ -35,7 +36,8 @@ const Footer = ()=> {
                     <a
                         className="btn btn-primary btn-floating m-1"
                         style={{backgroundColor: "#dd4b39"}}
-                        href="#!"
+                        href="https://www.google.com/"
+                        target='_blank'
                         role="button"
                         ><FaGoogle /> </a>
 
@@ -43,7 +45,8 @@ const Footer = ()=> {
                     <a
                         className="btn btn-primary btn-floating m-1"
                         style={{backgroundColor: "#ac2bac"}}
-                        href="#!"
+                        href="https://www.instagram.com/?hl=en"
+                        target='_blank'
                         role="button"
                         ><FaInstagram /> </a>
 
@@ -51,14 +54,16 @@ const Footer = ()=> {
                     <a
                         className="btn btn-primary btn-floating m-1"
                         style={{backgroundColor: "#0082ca"}}
-                        href="#!"
+                        href="https://www.linkedin.com/feed/"
+                        target='_blank'
                         role="button"
                         ><FaLinkedin /></a>
                     {/* Github --> */}
                     <a
                         className="btn btn-primary btn-floating m-1"
                         style={{backgroundColor: "#333333"}}
-                        href="#!"
+                        href="https://github.com/usmankhan866"
+                        target='_blank'
                         role="button"
                         > <FaGithub /> </a>
                     </section>
@@ -67,9 +72,9 @@ const Footer = ()=> {
                 {/* Grid container --> */}
 
                 {/* Copyright --> */}
-                <div class="text-center text-primary p-3" style={{backgroundColor: "rgba(0,0, 0, 0.2);"}}>
+                <div class="text-center text-white p-3" style={{backgroundColor: "rgba(0,0, 0, 0.2);"}}>
                     © 2020 Copyright:
-                    <a class="text-primary" href=""> <strong>instabyte.com </strong>  </a>
+                    <a class="text-primary text-decoration-none" href=""> <strong>instabyte.com </strong>  </a>
                 </div>
                 {/* Copyright --> */}
 </footer>
